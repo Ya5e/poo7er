@@ -8,6 +8,8 @@
 - **Bot Detection Bypass**: Uses Playwright to simulate human interactions, bypassing bot detection.
 - **DRM Handling**: Designed to work around DRM restrictions for seamless clip downloading.
 - **Customizable Parameters**: Supports various command-line options for targeted clip fetching and filtering.
+- **Proxy Support**: Supports proxies, please add proxies to proxies.txt.rename and ensure proxies.txt is the filename.
+- **Randomized User-Agent Rotation**: Rotates user-agents only uses MOBILE user-agents.
 
 ## Prerequisites
 
