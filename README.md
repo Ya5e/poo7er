@@ -71,7 +71,7 @@ To use **Poo7er** in a Docker environment, follow these steps:
 
 5. **Example Commands**
 
-    #### List all clips for the game Deadlock and limit the output to 10 clips.
+    List all clips for the game Deadlock and limit the output to 10 clips.
 
    ```bash
    docker run -it poo7er -lc -g "Deadlock" -l=10
@@ -116,7 +116,7 @@ To use **Poo7er** in a Docker environment, follow these steps:
     └────────────────────────────────────────────────┴──────────────┴──────────────┴───────┴────────────────────────────────────────────────┴──────────┴──────────────────────┴────────┘
     ```
 
-    #### Download the latest trending clips for the game Deadlock and limit the output to 1 clip.
+    Download the latest trending clips for the game Deadlock and limit the output to 1 clip.
 
     ```bash
     docker run -it poo7er -dl -g "Deadlock" -l=1
