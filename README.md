@@ -2,6 +2,10 @@
 
 **Poo7er** is a Python-based application designed to download trending clips from Twitch, bypassing bot detection and DRM restrictions. It leverages Playwright for browser automation, allowing it to interact with Twitch dynamically while maintaining stealth to avoid detection.
 
+---
+
+```
+
 ██████╗░░█████╗░░█████╗░███████╗███████╗██████╗░
 ██╔══██╗██╔══██╗██╔══██╗╚════██║██╔════╝██╔══██╗
 ██████╔╝██║░░██║██║░░██║░░░░██╔╝█████╗░░██████╔╝
@@ -22,6 +26,7 @@ Available Commands:
 -lc, --list-clips              List the top clips for a specified game. Can be combined with `-g` and `-l` for filtering.
 -sb, --show-browser            Show the browser during the clip download process for troubleshooting purposes.
 -td, --test-download           Test downloading a random clip from a specific game. Requires `-g` to specify the game and can use `-l` to limit the number of clips checked.
+```
 
 ## Features
 
