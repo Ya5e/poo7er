@@ -28,16 +28,15 @@ To use **Poo7er** in a Docker environment, follow these steps:
    git clone https://github.com/Ya5e/poo7er.git
    cd poo7er
 
-2. **Build the Docker Image**
+2. **Configure Environment Variables**
 
    ```bash
    mv .env.example .env (edit with your keys)
 
-
-3. **Configure Environment Variables**
+3. **Build the Docker Image**
 
    ```bash
-   docker run -it poo7er
+   docker build -t poo7er .
 
 4. **Run the Container**
 
