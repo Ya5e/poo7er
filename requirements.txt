@@ -1,0 +1,10 @@
+aiofiles==24.1.0
+aiohttp==3.10.10
+aiohttp_socks==0.9.0
+colorama==0.4.6
+playwright==1.47.0
+playwright_stealth==1.0.6
+prettytable==3.12.0
+python-dotenv==1.0.1
+Requests==2.32.3
+rich==13.9.4
